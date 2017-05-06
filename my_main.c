@@ -63,8 +63,6 @@ void my_main() {
   g.blue = 0;
   s = new_stack();
   tmp = new_matrix(4, 1000);
-  struct matrix *transform;
-  transform = new_matrix(4,1);
   clear_screen(t);
 
   for (i=0;i<lastop;i++) {
