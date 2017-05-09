@@ -87,7 +87,7 @@ void my_main() {
         break;
       case ROTATE:
         theta = op[i].op.rotate.degrees * M_PI/180;
-        double axis = op[lastop].op.rotate.axis;
+        double axis = op[i].op.rotate.axis;
         if(axis==0)tmp = make_rotX(theta);
         else if(axis==1)tmp=make_rotY(theta);
         else tmp=make_rotZ(theta);
